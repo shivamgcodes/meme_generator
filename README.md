@@ -1,4 +1,4 @@
-# AI Meme Generator
+# AI Meme Generator for Gravia Round 2
 
 An intelligent meme generation pipeline that creates custom memes using AI. The system combines Google Gemini for content planning and text generation with Replicate for image generation, producing high-quality memes with perfect text overlays.
 

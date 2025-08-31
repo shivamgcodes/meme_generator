@@ -1,0 +1,186 @@
+2025-08-31 17:35:20,685 - ERROR - Missing required environment variables: GEMINI_API_KEY, REPLICATE_API_TOKEN
+2025-08-31 17:35:20,686 - ERROR - Environment validation failed. Please set required API keys.
+2025-08-31 17:43:36,277 - INFO - All required environment variables are present
+2025-08-31 17:43:36,279 - INFO - Starting meme generation pipeline...
+2025-08-31 17:43:36,279 - INFO - Theme: cats
+2025-08-31 17:43:36,279 - INFO - Number of memes: 1
+2025-08-31 17:43:36,279 - INFO - Humor type: wholesome
+2025-08-31 17:43:36,280 - INFO - Restrictions: 
+2025-08-31 17:43:36,398 - INFO - Gemini client initialized successfully
+2025-08-31 17:43:36,399 - INFO - Replicate client initialized successfully
+2025-08-31 17:43:36,399 - INFO - MemeGenerator initialized successfully
+2025-08-31 17:43:36,399 - INFO - Generating meme 1/1...
+2025-08-31 17:43:36,399 - INFO - Step 1: Planning meme concept...
+2025-08-31 17:43:36,399 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-31 17:43:43,553 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-31 17:43:43,555 - INFO - AFC remote call 1 is done.
+2025-08-31 17:43:43,555 - INFO - Meme plan: The humor arises from the contrast between a human's often complex search for peace and comfort, and a cat's simple, effortless ability to find ultimate contentment and joy in the most basic, often inconvenient, places (like a tiny box). It's a gentle, appreciative chuckle at their innate ability to find happiness and a relatable observation of their simple, zen-like existence.
+2025-08-31 17:43:43,555 - INFO - Step 2: Generating base image...
+2025-08-31 17:43:43,555 - INFO - Generating image with prompt: 
+        A fluffy, medium-haired domestic cat (e.g., a ginger tabby or a cream-colored cat) is bliss...
+2025-08-31 17:43:47,566 - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-1.1-pro/predictions "HTTP/1.1 201 Created"
+2025-08-31 17:43:47,567 - ERROR - Unexpected output format: <class 'replicate.helpers.FileOutput'>
+2025-08-31 17:43:47,567 - ERROR - Failed to generate base image
+2025-08-31 17:43:47,567 - ERROR - Failed to generate meme 1
+2025-08-31 17:43:47,567 - INFO - Meme generation complete! Successfully generated 0/1 memes
+2025-08-31 17:43:47,567 - ERROR - No memes were generated successfully
+2025-08-31 17:44:15,406 - INFO - All required environment variables are present
+2025-08-31 17:44:15,409 - INFO - Starting meme generation pipeline...
+2025-08-31 17:44:15,409 - INFO - Theme: cats
+2025-08-31 17:44:15,409 - INFO - Number of memes: 1
+2025-08-31 17:44:15,409 - INFO - Humor type: wholesome
+2025-08-31 17:44:15,409 - INFO - Restrictions: 
+2025-08-31 17:44:15,459 - INFO - Gemini client initialized successfully
+2025-08-31 17:44:15,461 - INFO - Replicate client initialized successfully
+2025-08-31 17:44:15,462 - INFO - MemeGenerator initialized successfully
+2025-08-31 17:44:15,464 - INFO - Generating meme 1/1...
+2025-08-31 17:44:15,465 - INFO - Step 1: Planning meme concept...
+2025-08-31 17:44:15,466 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-31 17:44:23,122 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-31 17:44:23,124 - INFO - AFC remote call 1 is done.
+2025-08-31 17:44:23,124 - INFO - Meme plan: The humor is wholesome and relatable. The top text sets up a common human experience (e.g., 'My brain trying to process adult responsibilities'), and the bottom text, paired with the image of the blissfully content cat, suggests that our true inner self or desires just want the simple, unburdened peace of a cat. It's an endearing, self-aware joke about longing for simple comforts.
+2025-08-31 17:44:23,124 - INFO - Step 2: Generating base image...
+2025-08-31 17:44:23,124 - INFO - Generating image with prompt: 
+        A fluffy, medium-sized cat with soft, ginger and white fur is curled up in a perfect circle...
+2025-08-31 17:44:26,564 - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-1.1-pro/predictions "HTTP/1.1 201 Created"
+2025-08-31 17:44:26,565 - INFO - Image generated successfully: https://replicate.delivery/xezq/0ZXpT3RjZG60LRFx1LNU8OZ98MJ1baAqqS4f8J3IfP86vjQVA/tmp4moksrpz.jpg
+2025-08-31 17:44:26,565 - INFO - Base image generated successfully
+2025-08-31 17:44:26,565 - INFO - Downloading image from: https://replicate.delivery/xezq/0ZXpT3RjZG60LRFx1LNU8OZ98MJ1baAqqS4f8J3IfP86vjQVA/tmp4moksrpz.jpg
+2025-08-31 17:44:26,767 - INFO - Image saved successfully to: output/base_image_1_1756662266.jpg
+2025-08-31 17:44:26,769 - INFO - Step 3: Generating meme text...
+2025-08-31 17:44:26,769 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-31 17:44:30,216 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-31 17:44:30,218 - INFO - AFC remote call 1 is done.
+2025-08-31 17:44:30,218 - INFO - Generated 2 text blocks
+2025-08-31 17:44:30,218 - INFO - Step 4: Applying text overlay...
+2025-08-31 17:44:30,218 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-31 17:44:37,557 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-preview-image-generation:generateContent "HTTP/1.1 200 OK"
+2025-08-31 17:44:37,790 - INFO - AFC remote call 1 is done.
+2025-08-31 17:44:37,791 - INFO - Gemini response: Okay, I will first analyze the image and describe it in detail. Then, I will generate a new version of the image with the meme text added as requested, ensuring the text is in a bold, Impact-like font, white with a black outline, clearly visible, and positioned appropriately without obscuring important details.
+
+**Image Analysis and Description:**
+
+The image shows a small, adorable kitten curled up and sleeping peacefully on a soft, cream-colored, textured blanket. The kitten has orange and white fur, with more prominent orange patches on its head, back, and tail. Its eyes are closed, and its tiny pink nose is visible. The kitten is nestled comfortably, forming a somewhat circular shape with its tail tucked around its body. The blanket has a knitted or crocheted texture, with visible loops and patterns creating soft shadows. The lighting in the image is warm and gentle, likely natural light coming from the left, casting soft highlights on the kitten's fur and the blanket. In the blurred background, there is a glimpse of a potted green plant on a window sill and some out-of-focus shapes that suggest a cozy indoor setting. The overall mood of the image is one of comfort, warmth, and peaceful sleep.
+
+Now, I will generate the image with the specified meme text.
+
+
+2025-08-31 17:44:37,793 - INFO - Meme with text overlay saved to output/final_meme_1_1756662270.jpg
+2025-08-31 17:44:37,794 - INFO - Text overlay applied successfully using Gemini
+2025-08-31 17:44:37,795 - INFO - Meme generation completed successfully: output/final_meme_1_1756662270.jpg
+2025-08-31 17:44:37,796 - INFO - Successfully generated meme: output/final_meme_1_1756662270.jpg
+2025-08-31 17:44:37,796 - INFO - Meme generation complete! Successfully generated 1/1 memes
+2025-08-31 18:04:19,202 - INFO - All required environment variables are present
+2025-08-31 18:04:19,207 - INFO - Starting meme generation pipeline...
+2025-08-31 18:04:19,208 - INFO - Theme: programming
+2025-08-31 18:04:19,208 - INFO - Number of memes: 1
+2025-08-31 18:04:19,209 - INFO - Humor type: witty
+2025-08-31 18:04:19,209 - INFO - Restrictions: family-friendly
+2025-08-31 18:04:19,298 - INFO - Gemini client initialized successfully
+2025-08-31 18:04:19,300 - INFO - Replicate client initialized successfully
+2025-08-31 18:04:19,301 - INFO - MemeGenerator initialized successfully
+2025-08-31 18:04:19,302 - INFO - Generating meme 1/1...
+2025-08-31 18:04:19,304 - INFO - Step 1: Planning meme concept...
+2025-08-31 18:04:19,305 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-31 18:04:25,905 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-31 18:04:25,913 - INFO - AFC remote call 1 is done.
+2025-08-31 18:04:25,916 - INFO - Meme plan: The joke draws a witty analogy between the common, frustrating, and often visually overwhelming task of debugging complex code (especially when looking for a small, elusive error) and the universally relatable, equally frustrating challenge of untangling a massive string of holiday lights, often just to find one faulty connection or burnt-out bulb.
+2025-08-31 18:04:25,918 - INFO - Step 2: Generating base image...
+2025-08-31 18:04:25,920 - INFO - Generating image with prompt: 
+        A top-down or slightly angled shot of a person (could be gender-neutral, wearing casual att...
+2025-08-31 18:04:29,638 - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-1.1-pro/predictions "HTTP/1.1 201 Created"
+2025-08-31 18:04:29,639 - INFO - Image generated successfully: https://replicate.delivery/xezq/91Qj8LRNVH6OHlvzvR2YLeccCfFRfvKdAhFJivoTDxTbFIhqA/tmposqi9uhr.jpg
+2025-08-31 18:04:29,640 - INFO - Base image generated successfully
+2025-08-31 18:04:29,640 - INFO - Downloading image from: https://replicate.delivery/xezq/91Qj8LRNVH6OHlvzvR2YLeccCfFRfvKdAhFJivoTDxTbFIhqA/tmposqi9uhr.jpg
+2025-08-31 18:04:30,132 - INFO - Image saved successfully to: output/base_image_1_1756663469.jpg
+2025-08-31 18:04:30,134 - INFO - Step 3: Generating meme text...
+2025-08-31 18:04:30,134 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-31 18:04:37,087 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-31 18:04:37,089 - INFO - AFC remote call 1 is done.
+2025-08-31 18:04:37,089 - INFO - Generated 2 text blocks
+2025-08-31 18:04:37,089 - INFO - Step 4: Applying text overlay...
+2025-08-31 18:04:37,090 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-31 18:04:41,455 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-preview-image-generation:generateContent "HTTP/1.1 200 OK"
+2025-08-31 18:04:41,748 - INFO - AFC remote call 1 is done.
+2025-08-31 18:04:41,753 - INFO - Meme with text overlay saved to output/final_meme_1_1756663477.jpg
+2025-08-31 18:04:41,755 - INFO - Text overlay applied successfully using Gemini
+2025-08-31 18:04:41,757 - INFO - Meme generation completed successfully: output/final_meme_1_1756663477.jpg
+2025-08-31 18:04:41,757 - INFO - Successfully generated meme: output/final_meme_1_1756663477.jpg
+2025-08-31 18:04:41,758 - INFO - Meme generation complete! Successfully generated 1/1 memes
+2025-08-31 18:05:00,650 - INFO - All required environment variables are present
+2025-08-31 18:05:00,659 - INFO - Starting meme generation pipeline...
+2025-08-31 18:05:00,659 - INFO - Theme: coffee
+2025-08-31 18:05:00,660 - INFO - Number of memes: 1
+2025-08-31 18:05:00,660 - INFO - Humor type: relatable
+2025-08-31 18:05:00,660 - INFO - Restrictions: 
+2025-08-31 18:05:00,755 - INFO - Gemini client initialized successfully
+2025-08-31 18:05:00,755 - INFO - Replicate client initialized successfully
+2025-08-31 18:05:00,756 - INFO - MemeGenerator initialized successfully
+2025-08-31 18:05:00,756 - INFO - Generating meme 1/1...
+2025-08-31 18:05:00,757 - INFO - Step 1: Planning meme concept...
+2025-08-31 18:05:00,757 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-31 18:05:08,877 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-31 18:05:08,879 - INFO - AFC remote call 1 is done.
+2025-08-31 18:05:08,880 - INFO - Meme plan: The humor comes from the extreme and universally relatable transformation a daily coffee ritual provides, turning a seemingly lifeless human into a fully functional and productive individual.
+2025-08-31 18:05:08,880 - INFO - Step 2: Generating base image...
+2025-08-31 18:05:08,880 - INFO - Generating image with prompt: 
+        A split-panel image or side-by-side comparison. On the left side, depict a person (gender-n...
+2025-08-31 18:05:12,407 - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-1.1-pro/predictions "HTTP/1.1 201 Created"
+2025-08-31 18:05:12,408 - INFO - Image generated successfully: https://replicate.delivery/xezq/4Yv0kfsJbenUeop3FVTTvbNjodUMnjKvkRxlxKVdUHzwGIhqA/tmpbs93pef4.jpg
+2025-08-31 18:05:12,408 - INFO - Base image generated successfully
+2025-08-31 18:05:12,408 - INFO - Downloading image from: https://replicate.delivery/xezq/4Yv0kfsJbenUeop3FVTTvbNjodUMnjKvkRxlxKVdUHzwGIhqA/tmpbs93pef4.jpg
+2025-08-31 18:05:12,706 - INFO - Image saved successfully to: output/base_image_1_1756663512.jpg
+2025-08-31 18:05:12,708 - INFO - Step 3: Generating meme text...
+2025-08-31 18:05:12,708 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-31 18:05:15,803 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-31 18:05:15,804 - INFO - AFC remote call 1 is done.
+2025-08-31 18:05:15,805 - INFO - Generated 2 text blocks
+2025-08-31 18:05:15,805 - INFO - Step 4: Applying text overlay...
+2025-08-31 18:05:15,806 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-31 18:05:22,972 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-preview-image-generation:generateContent "HTTP/1.1 200 OK"
+2025-08-31 18:05:23,245 - INFO - AFC remote call 1 is done.
+2025-08-31 18:05:23,247 - INFO - Gemini response: I will recreate the split image showing a before-and-after coffee scenario with meme text. The left side will depict a tired young man slumped on a wooden table with his eyes closed and a mug emitting steam in front of him, set against a muted grey-blue background. The right side will show the same young man, now smiling brightly with his eyes open, holding a steaming mug in both hands, against a warm beige background. White text with a black outline, in a bold, sans-serif font reminiscent of Impact, will be added to the top reading "ME BEFORE MY MORNING COFFEE" and to the bottom reading "ME AFTER MY MORNING COFFEE". The text will be clearly legible and positioned to not obscure key elements of the illustration.
+
+
+2025-08-31 18:05:23,248 - INFO - Meme with text overlay saved to output/final_meme_1_1756663515.jpg
+2025-08-31 18:05:23,248 - INFO - Text overlay applied successfully using Gemini
+2025-08-31 18:05:23,248 - INFO - Meme generation completed successfully: output/final_meme_1_1756663515.jpg
+2025-08-31 18:05:23,248 - INFO - Successfully generated meme: output/final_meme_1_1756663515.jpg
+2025-08-31 18:05:23,248 - INFO - Meme generation complete! Successfully generated 1/1 memes
+2025-08-31 18:05:32,437 - INFO - All required environment variables are present
+2025-08-31 18:05:32,441 - INFO - Starting meme generation pipeline...
+2025-08-31 18:05:32,442 - INFO - Theme: dogs
+2025-08-31 18:05:32,442 - INFO - Number of memes: 1
+2025-08-31 18:05:32,442 - INFO - Humor type: silly
+2025-08-31 18:05:32,442 - INFO - Restrictions: 
+2025-08-31 18:05:32,525 - INFO - Gemini client initialized successfully
+2025-08-31 18:05:32,525 - INFO - Replicate client initialized successfully
+2025-08-31 18:05:32,526 - INFO - MemeGenerator initialized successfully
+2025-08-31 18:05:32,526 - INFO - Generating meme 1/1...
+2025-08-31 18:05:32,526 - INFO - Step 1: Planning meme concept...
+2025-08-31 18:05:32,526 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-31 18:05:39,329 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-31 18:05:39,331 - INFO - AFC remote call 1 is done.
+2025-08-31 18:05:39,332 - INFO - Meme plan: The humor stems from the absurd image of a dog earnestly attempting a complex human task like typing/coding, highlighting the gap between their simple, instinctual world and our complex one, with a silly, relatable inner monologue about their 'struggles'.
+2025-08-31 18:05:39,332 - INFO - Step 2: Generating base image...
+2025-08-31 18:05:39,332 - INFO - Generating image with prompt: 
+        A golden retriever, mid-to-large size, sitting upright on a chair at a small, slightly mess...
+2025-08-31 18:05:45,138 - INFO - HTTP Request: POST https://api.replicate.com/v1/models/black-forest-labs/flux-1.1-pro/predictions "HTTP/1.1 201 Created"
+2025-08-31 18:05:45,139 - INFO - Image generated successfully: https://replicate.delivery/xezq/nVBbPONT2G5MPRtxTQakDrX4Cq4dCFjcunreI50HP3v8BSoKA/tmp014ns47y.jpg
+2025-08-31 18:05:45,140 - INFO - Base image generated successfully
+2025-08-31 18:05:45,140 - INFO - Downloading image from: https://replicate.delivery/xezq/nVBbPONT2G5MPRtxTQakDrX4Cq4dCFjcunreI50HP3v8BSoKA/tmp014ns47y.jpg
+2025-08-31 18:05:45,643 - INFO - Image saved successfully to: output/base_image_1_1756663545.jpg
+2025-08-31 18:05:45,644 - INFO - Step 3: Generating meme text...
+2025-08-31 18:05:45,645 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-31 18:05:51,540 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-31 18:05:51,541 - INFO - AFC remote call 1 is done.
+2025-08-31 18:05:51,541 - INFO - Generated 2 text blocks
+2025-08-31 18:05:51,542 - INFO - Step 4: Applying text overlay...
+2025-08-31 18:05:51,542 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-31 18:05:55,672 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-preview-image-generation:generateContent "HTTP/1.1 200 OK"
+2025-08-31 18:05:55,989 - INFO - AFC remote call 1 is done.
+2025-08-31 18:05:56,005 - INFO - Meme with text overlay saved to output/final_meme_1_1756663551.jpg
+2025-08-31 18:05:56,009 - INFO - Text overlay applied successfully using Gemini
+2025-08-31 18:05:56,009 - INFO - Meme generation completed successfully: output/final_meme_1_1756663551.jpg
+2025-08-31 18:05:56,010 - INFO - Successfully generated meme: output/final_meme_1_1756663551.jpg
+2025-08-31 18:05:56,010 - INFO - Meme generation complete! Successfully generated 1/1 memes
